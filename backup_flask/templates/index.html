@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block index %}
+<link rel="stylesheet" href="static/index.css">
+<div class="col-md-12" style="text-align: left;">
+<ul class="nav">
+    <li class="nav-item" style="padding-top: 30px;">
+    <a href="/" class="link">Joel Garcia</a>
+    </li>
+    <li class="ms-auto nav-item" style="padding-right: 50px;">
+        <section>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+            <ul class="icon-list">
+                <li class="icon-item">
+                <a target="_blank" href="https://www.instagram.com/joel_garcia.20" class="icon-link"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="icon-item">
+                <a target="_blank" href="https://github.com/Newtoniano20" class="icon-link"><i class="fab fa-github"></i></a>
+                </li>
+                <li class="icon-item">
+                <a target="_blank" href="https://twitter.com/Newtoniano20" class="icon-link"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="icon-item">
+                <a target="_blank" href="https://www.youtube.com/channel/UCScuvGgrvL9c0wZp_XKJFAg" class="icon-link"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li class="icon-item">
+                <a target="_blank" href="https://www.linkedin.com/in/joelgarma/" class="icon-link"><i class="fab fa-linkedin"></i></a>
+                </li>
+            </ul>
+        </section>
+</li>
+</ul> 
+</div>
+<div class="col-md-12" style="text-align: left; margin-top: 250px;">
+{% block body %}
+{% endblock %}
+</div>
+{% endblock %}

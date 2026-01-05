@@ -1,0 +1,115 @@
+/* You can add global styles to this file, and also import other style files */
+.ntext{
+    margin: 20px -200px;
+    font-size: 15px;
+    padding-top: 30px; 
+    text-align: left;
+  }
+  .page{
+    background-image: url('./bg.JPG');
+    background-color: #000;
+    /*background-color: black;*/
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+    color: white;
+    }
+  .subpage {
+    margin: 40px 10px 40px 40px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    color: white;
+    font-family: Century Gothic; 
+    font-size: 54px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+  }
+  
+    :root {
+        --bg: transparent;     
+        --color-icon: #ffffff;  
+        --social-icon1: #e4405f;
+        --social-icon2: #3b5999;
+        --social-icon3: #0081fa;
+        --social-icon4: #cd201f;
+        --social-icon5: #0066ff;
+      }
+      
+      .icon-list {
+        width: 5px;
+        max-width: 5px;
+        padding: 0;
+        display: contents;
+        justify-content: space-between;
+      }
+      
+      .icon-item {
+        list-style: none
+      }
+      
+      .icon-link {  
+        display: inline-flex;
+        font-size: 2rem;  
+        text-decoration: none;  
+        color: var(--color-icon);
+        width: 6rem;
+        height: 6rem;   
+        transition: .5s linear;
+        position: relative;
+        z-index: 1;
+        margin: auto
+      }
+      
+      .icon-link:hover {
+        color: #fff;
+      }
+      
+      .icon-link i {
+        margin: auto;    
+      }
+      
+      .icon-link::before {  
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 6rem;
+        height: 6rem;
+        background: #000;
+        border-radius: 50%;
+        z-index: -1;
+        transform: scale(0);
+        transition: 0.3s cubic-bezier(.95, .32, .37, 1.21);
+      }
+        
+      .icon-link:hover::before {  
+        transform: scale(0.6);
+      }
+      
+      .icon-item:nth-child(1) a:hover:before { 
+        background: var(--social-icon1); 
+      }
+      
+      .icon-item:nth-child(2) a:hover:before { 
+        background: var(--social-icon2); 
+      }
+      
+      .icon-item:nth-child(3) a:hover:before { 
+        background: var(--social-icon3); 
+      }
+      
+      .icon-item:nth-child(4) a:hover:before { 
+        background: var(--social-icon4); 
+      }
+      
+      .icon-item:nth-child(5) a:hover:before { 
+        background: var(--social-icon5); 
+      }
+      .icon-item:nth-child(6) a:hover:before { 
+        background: var(--social-icon6); 
+      }
