@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-inter: var(--font-inter);
+}
+
+:root {
+  --foreground: #ffffff;
+}
+
+body {
+  background: linear-gradient(150.32deg, rgb(32, 35, 62) 2.87%, rgb(0, 0, 0) 74.48%);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+  min-height: 100vh;
+}
