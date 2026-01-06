@@ -25,8 +25,8 @@ COPY --from=builder /app/docs /usr/share/nginx/html
 # Copy custom Nginx configuration
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Expose port which Cloud Run expects (3000)
-EXPOSE 3000
+# Expose port (80)
+EXPOSE 80
 
 # Start Nginx
 CMD ["nginx", "-g", "daemon off;"]
