@@ -11,7 +11,7 @@ My work inside the Edgerton Center is part of the **international outreach**, wh
         <img src="/assets/furrari.jpg">
     </td>
     <td width="53%">
-      <img src="/assets/hack25.jpg">
+      <img src="/assets/Hack25.jpg">
     </td>
   </tr>
 </table>
@@ -36,10 +36,10 @@ During January, the Edgerton Center travels around the world, including Bulgaria
 <table>
   <tr>
     <td width="47%">
-        <img src="/assets/Italy.jpg">
+        <img src="/assets/italy.jpg">
     </td>
     <td width="53%">
-      <img src="/assets/hack25_kids.jpg">
+      <img src="/assets/Hack25_kids.jpg">
     </td>
   </tr>
 </table>
