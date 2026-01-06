@@ -28,7 +28,7 @@
         </p>
     </td>
     <td width="40%" style="vertical-align: top; border: none;">
-      <img src="/assets/grass_pp.jpg" width="100%">
+      <img src="/assets/grass_mission.jpg" width="100%">
     </td>
   </tr>
 </table>
