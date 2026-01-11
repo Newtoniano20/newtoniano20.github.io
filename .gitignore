@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# Other
+node_modules/
+.next/
+next-env.d.ts
+
 # Distribution / packaging
 .Python
 build/
