@@ -3,7 +3,7 @@
 Here I share extras 
 
 ## Blog
-Read my latest thoughts [here](joelgarciamartin.com/blog).
+Read my latest thoughts [here](https://joelgarciamartin.com/blog).
 
 ## Renders and Videos
 
